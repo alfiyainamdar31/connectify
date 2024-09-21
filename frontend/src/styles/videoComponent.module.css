@@ -1,0 +1,126 @@
+.meetVideoContainer {
+  position: relative;
+  height: 100vh;
+  background: rgb(1, 4, 48);
+}
+
+.meetUserVideo {
+  position: absolute;
+  bottom: 10vh;
+  height: 20vh;
+  width: auto;
+  left: 0;
+  border-radius: 20px;
+}
+
+.buttonContainers {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+
+.buttonContainers svg {
+  font-size: 3rem;
+}
+
+.conferenceView {
+  display: flex;
+
+  padding: 10px;
+  gap: 10px;
+}
+
+.conferenceView video {
+  width: 40vw;
+  height: 20vh;
+  min-width: 30vw;
+  border-radius: 10px;
+}
+
+.chatRoom {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chatContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background: linear-gradient(135deg, #f0f4f8, #e1e9ee);
+  height: 100%;
+}
+.chattingDisplay {
+  max-height: 300px; /* Adjust this value as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 10px; /* Optional padding */
+  border: 1px solid #ccc; /* Optional border for better visibility */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
+.chattingArea {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Space between chat display and input */
+}
+
+.inputField {
+  flex: 1; /* Takes the remaining space */
+  margin-right: 10px; /* Space between input and button */
+}
+
+.chattingArea input {
+  flex: 1;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #007bff;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.chattingArea input:focus {
+  border-color: #0056b3;
+}
+
+.chattingArea button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.chattingArea button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.chattingDisplay p {
+  margin: 5px 0;
+}
+
+.chattingDisplay p.sender {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 2px;
+}
+
+.chattingDisplay p.data {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #e0f7fa;
+}

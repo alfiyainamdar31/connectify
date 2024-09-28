@@ -1,5 +1,7 @@
 # Connectify
 
+<a href="https://connectify-s816.onrender.com/">visit the link to see the project</a>
+
 Connectify is a video call application that allows users to connect and communicate through video conferencing. The platform is built using a Node.js backend and a React frontend, utilizing real-time communication features powered by Socket.io.
 
 ## Table of Contents
